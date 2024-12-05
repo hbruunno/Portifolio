@@ -1,0 +1,122 @@
+.ccontainer{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.ctitulo{  
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.csubtitulo{
+  font-weight: 500;
+  font-size: 25px;
+  color: #98FB98;
+  margin-top: 15px;
+}
+
+.cinfo{
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.cperiodo{
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.chabilidades{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.chabilidade{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.soft { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  background: #6a1b9a;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+  transition: background 0.3s, transform 0.3s;
+}
+
+.soft:hover {
+  transform: scale(1.1); /* Pequeno efeito de zoom */
+}
+
+.hard { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  background: #5BD15B;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+  transition: background 0.3s, transform 0.3s;
+}
+
+.hard:hover {
+  transform: scale(1.1); /* Pequeno efeito de zoom */
+}
+
+
+@media (max-width: 800px){
+  .ccontainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ctitulo{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .csubtitulo{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cperiodo{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+  }
+  .cinfo{
+    display: flex;
+    width: 90%;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .chabilidades{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+  }
+}

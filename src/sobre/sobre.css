@@ -1,0 +1,94 @@
+
+/* .conteudoItem{
+  display: flex;
+  width: 80%;
+} */
+.scontainer{
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.titulo{
+  justify-content: flex-start;
+  font-size: 60px;
+  font-weight: 400;
+}
+.titulohab{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+.titulohab h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.habilidades{  
+  display: flex;
+  width: 80%;
+  gap: 15px;
+}
+
+.paragrafo{
+  width: 90%;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.cerebro{
+  padding: 5px;
+  width: 45px;
+  height: 50px;
+}
+
+.tecnologias{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.ticon{
+  padding: 5px;
+  width: 85px;
+}
+
+
+@media (max-width: 800px){
+  .scontainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .titulo{
+    font-size: 40px;
+  }
+  .h1{
+    display: flex;
+    font-size: 10;    
+  }
+  .habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .tecnologias{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  .ticon{
+    padding: 5px;
+    width: 70px;
+  }
+  .paragrafo{
+    font-size: 18px;
+  }
+}

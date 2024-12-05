@@ -1,0 +1,69 @@
+.ctitulo{  
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.csubtitulo{
+  font-weight: 500;
+  font-size: 25px;
+  color: #98FB98;
+  margin-top: 15px;
+}
+
+.cparagrafo{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.wimg{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wpp{  
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 10%;
+  transition: transform 0.3s ease-in-out;
+  margin: 15px;
+}
+
+.a{
+  display: flex;
+}
+
+.wpp:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 800px){
+  .contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .cinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .wimg{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .wpp{    
+    width: 55px;
+  }
+}

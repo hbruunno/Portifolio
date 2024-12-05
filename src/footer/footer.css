@@ -1,0 +1,25 @@
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.789);
+  width: 100%;
+  height: 10vh;
+  margin-top: 5%;
+}
+.footer{
+  display: flex;
+  background-color: transparent;
+}
+
+.fparagrafo{
+  display: flex;
+  background-color: transparent;
+
+}
+
+@media (max-width: 800px){
+  .fparagrafo{
+    font-size: 14px;
+  }
+}
