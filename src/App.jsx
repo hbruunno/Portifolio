@@ -154,8 +154,8 @@ function App() {
             <img src={insta} alt="Instagram" className="icon" />
             </a>
           </div> 
-          <a className='link' href="../public/curriculo.pdf" download>
-          <button className="botaoperfil">Baixar Currículo ⤓</button>
+          <a className='link' href="https://hbruunno.github.io/Curriculo/" target='_blanck'>
+          <button className="botaoperfil">Link do Currículo</button>
           </a>
         </div>
 
