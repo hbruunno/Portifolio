@@ -133,12 +133,8 @@ import Footer from './footer/Footer';
 
 
 function App() {
+
   
-
-
- 
-
-
   return (
     <Router>
       <div className="container">
@@ -158,7 +154,7 @@ function App() {
             <img src={insta} alt="Instagram" className="icon" />
             </a>
           </div> 
-          <a className='link' href="../src/arquivos/curriculo.pdf" download>
+          <a className='link' href="../public/curriculo.pdf" download>
           <button className="botaoperfil">Baixar Currículo ⤓</button>
           </a>
         </div>
