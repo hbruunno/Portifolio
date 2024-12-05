@@ -24,7 +24,8 @@
   gap: 15px;
 }
 
-.titulohab h1 {
+.h1 {
+  display: flex;
   font-weight: 500;
   font-size: 40px;
 }
@@ -69,9 +70,14 @@
   .titulo{
     font-size: 40px;
   }
+  .titulohab{
+    display: flex;
+    font-size: 20px;
+  }
   .h1{
     display: flex;
-    font-size: 10;    
+    font-weight: 500;
+    font-size: 30px;    
   }
   .habilidades{
     display: flex;
