@@ -5,7 +5,7 @@ import wpp from '../assets/icones/whatsapp.png'
 export default function Contato () {
   
 
-  return (
+  return ( 
     <div className="contato">
 
       <div className="cinfo">

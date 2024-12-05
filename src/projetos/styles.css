@@ -6,7 +6,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
 }
 
 .card {

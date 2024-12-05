@@ -202,7 +202,7 @@ function Navigation() {
         Currículo
       </button>
       <button className={`botao ${ativo('/fale-comigo')}`} onClick={() => navigate('/fale-comigo')}>
-        Fale comigo
+        Contato
       </button>
     </div>
   );
