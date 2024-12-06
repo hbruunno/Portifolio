@@ -90,8 +90,10 @@
 
 @media (max-width: 800px){
   .projetos{
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 25px;
