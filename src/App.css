@@ -126,7 +126,7 @@
   margin-top: 30px;
   margin-bottom: 30px; 
   border-color: #98FB98;
-  padding: 8px 15px;
+  padding: 8px 10px;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -134,7 +134,7 @@
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px; 
   transition: background 0.3s, transform 0.3s;
-
+  white-space: nowrap;
 }
 
 .botaoativo {
@@ -161,7 +161,7 @@
 
 
 
-@media (max-width: 800px){
+@media (max-width: 900px){
   .container{
     display: flex;
     flex-direction: column;
@@ -202,5 +202,6 @@
     margin-top: 10px;
     font-size: 14px;
     padding: 8px 5px;
+    white-space: nowrap;
   }
 }

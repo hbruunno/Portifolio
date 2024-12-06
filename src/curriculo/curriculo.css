@@ -18,6 +18,7 @@
 }
 
 .cinfo{
+  display: flex;
   font-weight: 500;
   font-size: 20px;
   margin-top: 10px;
@@ -87,33 +88,45 @@
 
 @media (max-width: 800px){
   .ccontainer{
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    
   }
   .ctitulo{
     display: flex;
     width: 90%;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
   .csubtitulo{
     display: flex;
     width: 90%;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    
   }
+
+  .cinfo{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 20px;   
+    margin-left: -40px;    
+  }
+
   .cperiodo{
     display: flex;
     width: 90%;
     justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    
   }
-  .cinfo{
-    display: flex;
-    width: 90%;
-    font-weight: 400;
-    font-size: 20px;
-  }
+  
   .chabilidades{
     display: flex;
     width: 90%;

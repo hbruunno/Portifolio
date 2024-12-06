@@ -32,7 +32,7 @@ export default function Curriculo() {
       <p className="cinfo">3 vezes monitor, no qual participei do SIM-UFAL e fui reconhecido com um certificado de excelência acadêmica.</p>
       <p className="cperiodo">Periodo de 4 meses por monitoria, total 12 meses</p>
 
-      <h2 className="csubtitulo">Moitor de Banco de dados 1 e 2</h2> 
+      <h2 className="csubtitulo">Monitor de Banco de dados 1 e 2</h2> 
       <p className="cinfo"> Modelagem de dados, normalização e gestão de SGBDs (como MySQL) criação, manipulação, entidade e relacionamento.</p>
       <p className="cperiodo">Periodo de 4 meses B1 e 4 meses B2</p>
 
