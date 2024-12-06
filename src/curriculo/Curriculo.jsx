@@ -4,7 +4,12 @@ export default function Curriculo() {
   const softs = [
     {id: 1, nome: 'Proatividade'},
     {id: 2, nome: 'Comunicação'},
-    {id: 3, nome: 'Agilidade'}
+    {id: 3, nome: 'Agilidade'},
+    {id: 4, nome: 'Adaptabilidade'},
+    {id: 5, nome: 'Criatividade'},
+    {id: 6, nome: 'Trabalho em equipe'},
+    
+    
   ]
 
   const hards = [
@@ -16,7 +21,10 @@ export default function Curriculo() {
     {id: 6, nome: 'Node.js'},
     {id: 7, nome: 'Bootstrap'},
     {id: 8, nome: 'Git'},
-    {id: 9, nome: 'SQL'}
+    {id: 9, nome: 'MySQL'},
+    {id: 10, nome: 'Selenium'},
+    {id: 11, nome: 'React Native'},
+
   ]
 
 
