@@ -17,13 +17,12 @@ export default function Curriculo() {
     {id: 2, nome: 'CSS'},
     {id: 3, nome: 'JavaScript'},
     {id: 4, nome: 'React'},
-    {id: 5, nome: 'ReactNative'},
+    {id: 5, nome: 'React Native'},
     {id: 6, nome: 'Node.js'},
     {id: 7, nome: 'Bootstrap'},
     {id: 8, nome: 'Git'},
     {id: 9, nome: 'MySQL'},
-    {id: 10, nome: 'Selenium'},
-    {id: 11, nome: 'React Native'},
+    {id: 10, nome: 'Selenium'}
 
   ]
 
