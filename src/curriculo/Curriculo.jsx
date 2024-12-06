@@ -30,21 +30,22 @@ export default function Curriculo() {
   return(
     <div className="ccontainer">
       <h1 className="ctitulo">Formação Acadêmica</h1>
-      <h2 className="csubtitulo">Sistemas de Informação - Bacharel</h2> 
+      <h2 className="csubtitulo">Bacharel em Sistemas de Informação</h2> 
+      <p className="cinformacao">Univerisade Federal de Alagoas - UFAL</p>
       <p className="cperiodo">2020 - 2024</p>    
 
-      <h1 className="ctitulo">Experiência Profissional</h1>
+      <h1 className="ctitulo">Experiência:</h1>
 
       <h2 className="csubtitulo">Monitor de Arquitetura e Organização de Computadores</h2>
-      <p className="cinfo">3 vezes monitor, no qual participei do SIM-UFAL e fui reconhecido com um certificado de excelência acadêmica.</p>
+      <p className="cinformacao">3 vezes monitor, no qual participei do SIM-UFAL e fui reconhecido com um certificado de excelência acadêmica.</p>
       <p className="cperiodo">Periodo de 4 meses por monitoria, total 12 meses</p>
 
       <h2 className="csubtitulo">Monitor de Banco de dados 1 e 2</h2> 
-      <p className="cinfo"> Modelagem de dados, normalização e gestão de SGBDs (como MySQL) criação, manipulação, entidade e relacionamento.</p>
+      <p className="cinformacao"> Modelagem de dados, normalização e gestão de SGBDs (como MySQL) criação, manipulação, entidade e relacionamento.</p>
       <p className="cperiodo">Periodo de 4 meses B1 e 4 meses B2</p>
 
       <h2 className="csubtitulo">Monitor de Metodologia da Pesquisa Cientifica</h2>
-      <p className="cinfo">Abordando conjunto de técnicas e procedimentos utilizados para investigar um problema de forma sistemática e objetiva.</p>
+      <p className="cinformacao">Abordando conjunto de técnicas e procedimentos utilizados para investigar um problema de forma sistemática e objetiva.</p>
       <p className="cperiodo">Periodo de 4 meses</p>
 
       <h1 className="ctitulo">Competências e Habilidades</h1>

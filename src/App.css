@@ -7,10 +7,16 @@
   font-family: "Maven Pro", sans-serif;
   justify-content: center;
 }
-
-.container{
+.estrutura{
   display: flex;
   width: 98vw;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  width: 100%;
   justify-content: center;
   flex-direction: row;
 }
@@ -45,7 +51,7 @@
   margin-top: 10px;
   padding: 20px;
   width: 80%;
-  height: 15%;
+  height: auto;
 }
 
 .links{
@@ -157,21 +163,33 @@
   box-sizing: border-box;
   width: 100%;
 }
+.router{
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
 
 
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .container{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
   }
   .perfil{
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .icones{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
   }
   .conteudo{
     display: flex;
@@ -183,12 +201,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     position: sticky; 
     top: 0;          
     left: 0;         
-    width: 100%;     
     z-index: 1000;
-    height: 10%;
   }
   
 
@@ -197,8 +214,10 @@
   }
   .botao{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    width: 19%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     font-size: 14px;
     padding: 8px 5px;

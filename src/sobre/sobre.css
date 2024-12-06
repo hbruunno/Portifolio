@@ -10,6 +10,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
+  width: 100%;
 }
 
 .titulo{
@@ -61,11 +62,11 @@
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .scontainer{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
   .titulo{
     font-size: 40px;

@@ -86,17 +86,18 @@
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .ccontainer{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+    padding-left: 5%; 
   }
   .ctitulo{
     display: flex;
     width: 90%;
+    
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -108,14 +109,13 @@
     
   }
 
-  .cinfo{
+  .cinformacao{
     display: flex;
     width: 90%;
     justify-content: flex-start;
     align-items: flex-start;
     font-weight: 400;
-    font-size: 20px;   
-    margin-left: -40px;    
+    font-size: 20px;      
   }
 
   .cperiodo{

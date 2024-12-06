@@ -137,6 +137,7 @@ function App() {
   
   return (
     <Router>
+      <div className="estrutura">
       <div className="container">
         <div className="perfil">
           <img src={Foto} alt="Foto" className="img" />
@@ -170,9 +171,10 @@ function App() {
             </Routes>
           </div>
         </div>
-        
+        </div>
+       <Footer/> 
       </div>
-      <Footer/>
+      
     </Router>
   );
 }

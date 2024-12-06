@@ -55,7 +55,7 @@
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .contato{
     display: flex;
     flex-direction: column;
@@ -75,6 +75,7 @@
     width: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
+    justify-content: center;
   }
   .wpp{    
     width: 55px;
