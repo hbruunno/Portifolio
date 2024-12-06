@@ -158,6 +158,8 @@ function App() {
           <a className='link' href="https://hbruunno.github.io/Curriculo/" target='_blanck'>
           <button className="botaoperfil">Link do Currículo</button>
           </a>
+          
+          <div className="percontainer"></div>
         </div>
 
         <div className="conteudo">
